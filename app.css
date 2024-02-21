@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.google.com/specimen/Roboto');
+
+.header {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 90px;
+}
+
+.header .container {
+	display: flex;
+	align-items: center;
+	width: 1201px;
+}
+
+.header button {
+	background-color: #43806c;
+	color: white;
+	width: 137px;
+	height: 40px;
+	border-radius: 6px;
+	border: none;
+}
+
+.header h2 {
+	width: 75px;
+	height: 21.62px;
+	top: 1.19px;
+	color: #214e41;
+}
+
+.headerNav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 195px 0 195px;
+}
+
+.headerNav ul {
+	display: flex;
+	gap: 53px;
+}
+
+.headerNav p {
+	font-family: 'Raleway', sans-serif;
+	height: 20px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.main {
+	display: flex;
+	background-image: url('bacgroudImg.jpeg');
+	width: 100%;
+	height: 720px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	background-position: center;
+}
+
+.main .container {
+	width: 660px;
+	height: 278px;
+	top: 160px;
+	left: 120px;
+	padding: 160px 660px 282px 120px;
+	display: flex;
+	flex-direction: column;
+}
+
+.main h2 {
+	font-family: 'Roboto', sans-serif;
+	color: #214e41;
+	width: 516px;
+	height: 138px;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 46px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.main p {
+	font-family: 'Raleway', sans-serif;
+	width: 128px;
+	height: 24px;
+	top: 178px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #214e41;
+	padding-top: 40px;
+	padding-bottom: 16px;
+}
+
+.main .data {
+	display: flex;
+	gap: 0;
+}
+
+.main .data input {
+	width: 280px;
+	height: 60px;
+	color: black;
+	border: none;
+	border-radius: 6px 0px 0px 6px;
+}
+
+.main .data input::placeholder {
+	width: 172px;
+	height: 20px;
+	top: 489px;
+	left: 140px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: black;
+	padding: 20px 88px 20px 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.main .data button {
+	width: 123px;
+	height: 60px;
+	border-radius: 0px 6px 6px;
+	background-color: #43806c;
+	color: white;
+	border: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0em;
+}
